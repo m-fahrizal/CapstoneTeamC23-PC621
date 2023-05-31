@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.ApplyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apply_kip"
+            android:layout_gravity="center"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nik"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="31dp"
+            android:textSize="14dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edNIK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputNIK"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nisn"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edNISN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputNISN"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/npsn"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edNPSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputNPSN"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fullname"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edfullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputFullname"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+        
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="47dp">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/laki_laki"
+                android:layout_marginEnd="50dp"/>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/perempuan"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tempatLahir"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edTempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputTempatLahir"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tglLahir"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputTglLahir"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mom"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edMom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputMom"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputAddress"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/posCode"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edPosCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputPosCode"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/religion"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edReligion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputReligion"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salary"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputSalary"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PT"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioPT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="47dp">
+
+            <RadioButton
+                android:id="@+id/radioPTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PTN"
+                android:layout_marginEnd="50dp"/>
+
+            <RadioButton
+                android:id="@+id/radioPTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PTS"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prestasi"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioPrestasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="47dp">
+
+            <RadioButton
+                android:id="@+id/havePrestasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes"
+                android:layout_marginEnd="50dp"/>
+
+            <RadioButton
+                android:id="@+id/noPrestasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/univ"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edUniv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputUniv"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jurusan"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputJurusan"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jenjang"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edJenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputJenjang"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/semester"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edSemester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputSemester"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ukt"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edUkt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputUkt"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ipk"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/edIpk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputIpk"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_input"
+            android:textSize="14dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fotoRumah"
+            android:fontFamily="@font/opensansreguler"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            />
+
+        <com.example.capstoneproject.ui.custom.PhotoButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_file"
+            android:layout_marginStart="45dp"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:id="@+id/btn_apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="100dp"
+            android:text="@string/apply"
+            android:textSize="20sp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/opensansextrabold"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

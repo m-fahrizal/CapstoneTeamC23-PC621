@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.FaqActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="33dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extendfaq"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/indofaq"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/exFaq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/faq1_parent"
+            app:expandable_secondLayout="@layout/faq1_second"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/black"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/exFaq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/faq2_parent"
+            app:expandable_secondLayout="@layout/faq2_second"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/black"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/exFaq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/faq3_parent"
+            app:expandable_secondLayout="@layout/faq3_second"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/black"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/exFaq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/faq4_parent"
+            app:expandable_secondLayout="@layout/faq4_second"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/black"
+            app:expandable_spinner_size="32dp"
+            app:expandable_spinner_margin="20dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/exFaq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/faq5_parent"
+            app:expandable_secondLayout="@layout/faq5_second"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/black"
+            app:expandable_spinner_size="32dp"
+            app:expandable_spinner_margin="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

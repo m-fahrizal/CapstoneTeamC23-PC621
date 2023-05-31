@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Capstone Project</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="tidak_punya_akun">Buat Akun Baru ?</string>
+    <string name="daftar">Daftar</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="register">Register</string>
+    <string name="name">Username</string>
+    <string name="masukkan_nama">Masukkan Username</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun ?</string>
+    <string name="title_home">Home</string>
+    <string name="title_apply">Apply</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pengertian"><b>Kartu Indonesia Pintar (KIP-Kuliah)</b> adalah bantuan pendidikan yang diberikan pemerintah kepada mahasiswa yang berasal dari keluarga kurang mampu. Bantuan ini berlaku bagi mereka yang lolos melalui jalur SNBP, SNBT, dan Ujian Mandiri di perguruan tinggi negeri maupun perguruan tinggi swasta.</string>
+    <string name="prosedur">Tahapan Pendaftaran KIP Kuliah:
+1. Siswa dapat langsung melakukan pendaftaran secara mandiri di web Sistem KIP Kuliah pada laman kip-kuliah.kemdikbud.go.id atau melalui KIP Kuliah mobile apps*;
+2. Pada saat pendaftaran, siswa memasukkan NIK, NISN, NPSN dan alamat email yang valid dan aktif;
+3. Sistem KIP Kuliah selanjutnya akan melakukan validasi NIK, NISN dan NPSN serta kelayakan mendapatkan KIP Kuliah**;
+4. Jika proses validasi berhasil, Sistem KIP Kuliah selanjutnya akan mengirimkan Nomor Pendaftaran dan Kode Akses ke alamat email yang didaftarkan;
+5. Siswa menyelesaikan proses pendaftaran KIP Kuliah dan memilih jalur seleksi yang akan diikuti (SNMPTN/SBMPTN/SMPN/UMPN/Mandiri);
+6. Selanjutnya, Siswa menyelesaikan proses pendaftaran di portal atau sistem informasi seleksi nasional masuk perguruan tinggi sesuai jalur seleksi yang dipilih. Proses sinkronisasi dengan sistem tersebut akan dilakukan kemudian dengan skema host-to-host.
+7. Bagi calon penerima KIP Kuliah yang telah dinyatakan diterima di Perguruan Tinggi, dapat dilakukan verifikasi lebih lanjut oleh Perguruan Tinggi sebelum diusulkan sebagai calon mahasiswa penerima KIP Kuliah.
+    </string>
+
+    <string name="syarat">Persyaratan untuk mendaftar Program KIP Kuliah Tahun 2022 adalah sebagai berikut:
+1. Penerima KIP-KULIAH adalah siswa SMA atau sederajat yang lulus atau akan lulus pada tahun berjalan atau telah dinyatakan lulus maksimal 2 tahun sebelumnya, serta memiliki NISN, NPSN dan NIK yang valid;
+2. Memiliki potensi akademik baik tetapi memiliki keterbatasan ekonomi yang didukung bukti dokumen yang sah;
+3. Siswa SMA/ SMK/ MA atau sederajat yang lulus pada tahun berjalan dengan potensi akademik baik dan mempunyai Kartu KIP atau memiliki Kartu Keluarga Sejahtera atau terdata di Data Terpadu Kesejahteraan Sosial (DTKS) Kemensos;
+4. Lulus seleksi penerimaan mahasiswa baru, dan diterima di PTN atau PTS pada Prodi dengan Akreditasi A atau B, dan dimungkinkan dengan pertimbangan tertentu pada Prodi dengan Akreditasi C.
+    </string>
+
+    <string name="keunggulan">Beberapa KEUNGGULAN KIP Kuliah:
+1. Jumlahnya lebih banyak dari Bidikmisi yakni lebih dari 400.000 orang untuk tahun 2020. (bidikmisi 2019 130.000 beasiswa).
+2. Lebih banyak memberi akses kepada Pendidikan vokasi.
+3. Sistem terintegrasi dengan Kampus Merdeka dan Merdeka Belajar di Perguruan Tinggi.
+4. KIP Kuliah terbagi menjadi 2 kelompok yaitu KIP Kuliah dan KIP Kuliah Afirmasi.
+5. KIP Kuliah Afirmasi, antara lain meliputi Bantuan Biaya Program Afirmasi Pendidikan Tinggi (ADik) untuk ADik Papua, ADik Papua Barat dan ADik 3T.
+    </string>
+
+    <string name="prosedur_parent">Prosedur Pendaftaran KIP</string>
+    <string name="syarat_parent">Syarat Pendaftaran KIP</string>
+    <string name="keunggulan_parent">Keunggulan KIP Kuliah</string>
+    <string name="panduan">Panduan</string>
+    <string name="status">Cek Status Pengajuan</string>
+    <string name="faq">FAQ</string>
+    <string name="alamatkip">Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia Gedung C Lantai 13, Jl. Jenderal Sudirman, Senayan, Jakarta Pusat 10270</string>
+    <string name="emailkip">Email: kip.kuliah@kemdikbud.go.id</string>
+    <string name="igkip">Instagram: @puslapdik_dikbud</string>
+    <string name="logout">LOGOUT</string>
+    <string name="nik">NIK</string>
+    <string name="inputNIK">Masukkan NIK</string>
+    <string name="nisn">NISN</string>
+    <string name="inputNISN">Masukkan NISN</string>
+    <string name="inputNPSN">Masukkan NPSN</string>
+    <string name="npsn">NPSN</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="inputFullname">Masukkan Nama Lengkap</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tempatLahir">Tempat Lahir</string>
+    <string name="inputTempatLahir">Masukkan Tempat Lahir</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="tglLahir">Tanggal Lahir</string>
+    <string name="inputTglLahir">Masukkan Tanggal Lahir</string>
+    <string name="mom">Nama Ibu Kandung</string>
+    <string name="inputMom">Masukkan Nama Ibu Kandung</string>
+    <string name="address">Alamat Lengkap</string>
+    <string name="inputAddress">Masukkan Alamat Lengkap</string>
+    <string name="posCode">Kode Pos</string>
+    <string name="inputPosCode">Masukkan Kode Pos</string>
+    <string name="religion">Agama</string>
+    <string name="inputReligion">Masukkan Agama</string>
+    <string name="salary">Gaji Orang Tua</string>
+    <string name="inputSalary">Contoh : 5000000 (tanpa titik)</string>
+    <string name="PT">Perguruan Tinggi</string>
+    <string name="PTN">PTN</string>
+    <string name="PTS">PTS</string>
+    <string name="univ">Nama Universitas</string>
+    <string name="inputUniv">Masukkan Nama Universitas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="inputJurusan">Masukkan Jurusan</string>
+    <string name="jenjang">Jenjang</string>
+    <string name="inputJenjang">Masukkan Jenjang Pendidikan</string>
+    <string name="semester">Semester</string>
+    <string name="inputSemester">Masukkan Semester</string>
+    <string name="ukt">UKT</string>
+    <string name="inputUkt">Masukkan UKT Per Semester</string>
+    <string name="ipk">IPK</string>
+    <string name="inputIpk">Masukkan IPK</string>
+    <string name="fotoRumah">Foto Rumah</string>
+    <string name="upload_file">Upload File</string>
+    <string name="apply">APPLY</string>
+    <string name="pengajuan_diproses">PENGAJUAN DIPROSES!</string>
+    <string name="lihat_status">Lihat Status</string>
+    <string name="kembali">Kembali Ke Home</string>
+    <string name="eligible1">Selamat pengajuan kamu diterima karena data kamu telah eligible!</string>
+    <string name="eligible2">Selanjutnya kamu akan dihubungi oleh Tim KIP untuk tahapan berikutnya!</string>
+    <string name="pengajuan_diterima">PENGAJUAN DITERIMA!</string>
+    <string name="pengajuan_ditolak">PENGAJUAN DITOLAK!</string>
+    <string name="not_eligible">Maaf pengajuan kamu ditolak karena data kamu belum eligible!</string>
+    <string name="pengajuan_dalam_proses">PENGAJUAN DALAM PROSES!</string>
+    <string name="process">Mohon tunggu karena pengajuan kamu masih dalam tahap proses!</string>
+    <string name="extendfaq">Frequently Asked Questions</string>
+    <string name="indofaq">Pertanyaan yang sering ditanyakan</string>
+    <string name="faq1_parent">Apakah KIP-Kuliah Gratis ?</string>
+    <string name="faq2_parent">Apakah Mahasiswa Aktif Boleh Mendaftar ?</string>
+    <string name="faq3_parent">Jadwal Pendaftaran KIP</string>
+    <string name="faq4_parent">Jika Mendaftar KIP dan Ternyata setelah
+        diverifikasi saya tidak layak. Apa yang akan terjadi?</string>
+    <string name="faq5_parent">Saya Penerima KIP, apakah boleh mendaftar beasiswa selain KIP-Kuliah?</string>
+    <string name="faq1_second">KIP-Kuliah memberikan pembiayaan sebagai berikut:  1. Pendaftaran KIP-Kuliah tidak dikenakan biaya. 2. Bebas biaya pendidikan yang dibayarkan kepada perguruan tinggi 3. Subsidi biaya hidup sebesar Rp700.000 / bulan yang disesuaikan dengan pertimbangan biaya hidup di masing masing wilayah Jika ada pihak pihak yang memungut biaya pada calon pendaftar, pendaftar, atau penerima KIP-Kuliah di luar ketentuan tersebut bisa melapor ke <b>Helpdesk KIP Kuliah.</b> </string>
+    <string name="faq2_second">Saat ini KIP-Kuliah dikhususkan untuk calon mahasiswa/lulusan SMA sederajat tahun berjalan atau lulus dua tahun sebelunya.</string>
+    <string name="faq3_second">Jadwal kegiatan KIP-Kuliah tahun 2022 dapat dilihat pada laman berikut : https://kip-kuliah.kemdikbud.go.id <i>Perlu kami sampaikan bahwa jadwal ini dapat berubah sewaktu-waktu dan jika terdapat perubahan akan diumumkan melalui laman ini.</i> </string>
+    <string name="faq4_second">KIP-Kuliah ditujukan secara eksklusif hanya untuk yang tidak mampu secara ekonomi. Siswa yang secara akademik unggul tapi mampu secara ekonomi tidak diperkenankan mendaftar. Dalam hal anda mendaftar KIP Kuliah dan ternyata tidak layak menerima karena ternyata mampu secara ekonomi, ada beberapa kemungkinan yang terjadi:  1. Jika dianggap kelalaian ringan / tidak disengaja, tidak akan ditetapkan sebagai penerima KIP-Kuliah namun dianggap sebagai mahasiswa reguler 2. Jika dianggap melakukan pengisian data yang tidak benar secara sengaja dan atau pemberian bukti pendukung yang tidak sah (cara mendapatkannya) dapat dibatalkan statusnya dalam seleksi masuk PT   Status kelayakan juga bisa berdasarkan laporan dari masyarakat, misalkan ada laporan penerima KIP Kuliah yang orang tuanya tiap tahun pergi umroh, dalam hal tersebut kami akan berkoordinasi dengan perguruan tinggi terkait untuk melakukan verifikasi ulang.</string>
+    <string name="faq5_second">Mahasiswa penerima KIP Kuliah dapat mengajukan beasiswa lainnya asalkan sumber dana beasiswa berbeda dengan KIP Kuliah (APBN), kecuali jika ada ketentuan lain di kontrak beasiswa selain KIP Kuliah.</string>
+    <string name="apply_kip">Apply KIP</string>
+    <string name="prestasi">Punya Prestasi?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="phone">Masukkan No. HP</string>
+    <string name="noHP">No Handphone</string>
+
+</resources>
