@@ -2,6 +2,7 @@ try:
     import tensorflow as tf
     import numpy as np
     from tensorflow.keras.layers import Dense
+    from tensorflow.keras.utils import load_img, img_to_array
 except ImportError:
     print('dependency not installed')
 
@@ -12,12 +13,28 @@ def _sigmoid_prediction(linear_predictions):
     X = np.array([[x[0][0] for x in linear_predictions]])
     return sigmoid(X)
 
+def _process_image(img_path):
+    img = load_img(img_path, target_size=(150, 150))
+    img = img_to_array(img) / 255
+    img = np.expand_dims(img,0)
+
+    return img
 def inference(model_paths:list=None,
               data_points:list=None):
-    '''fungsi untuk melakukan inference model yang sudah dideploy.
+    '''
+    fungsi untuk melakukan inference model yang sudah dideploy.
     Parameters :
         model_path : list dari path kedua model (gambar dan tabel)
-        data_points: list dari data yang akan diprediksi untuk masing masing model'''
+        data_points: list dari data yang akan diprediksi untuk masing masing model
+    Contoh Penggunaan :
+    
+    >> prediction , confidence = inference(['./csv_model.h5'],
+                                           [np.array([[0,100,2.5,0,1]]),])
+    >> print(prediction)\n
+    Not Eligible
+    '''
+    
+
     assert len(model_paths) == len(data_points), 'jumlah models dan data_poin tidak sesuai'
     predictions = []
     for i, path in enumerate(model_paths):
@@ -27,12 +44,13 @@ def inference(model_paths:list=None,
             predictions.append(pred)
         except Exception as e:
             print('ERROR |',e)
+    confidence = _sigmoid_prediction(predictions)
+    prediction = 'Eligible' if confidence >= 0.5 else 'Not Eligible'
+    return prediction, confidence[0][0].numpy()
     
-    return _sigmoid_prediction(predictions) >= 0.5
-    
+# contoh penggunaan
 if __name__=='__main__':
-    prediction = inference(['./csv_model.h5'],
-                           [np.array([[0,100,2.5,0,1]]),
-                            # np.array([[1,80,2.5,0,1]]),
-                            ])
-    print('yes' if prediction else 'no')
+    prediction , confidence = inference(['./csv_model.h5','../test.h5'],
+                                        [np.array([[1,100,0,1,1]]),
+                                         _process_image('../Capstone Assets/faq.jpg')])
+    print(prediction,f', {round(confidence*100,2)}% confidence')
