@@ -4,17 +4,17 @@ try:
     from tensorflow.keras.layers import Dense
     from tensorflow.keras.utils import load_img, img_to_array
 except ImportError:
-    print('dependency not installed')
+    raise ImportError
 
-def _sigmoid_prediction(linear_predictions):
+def sigmoid_prediction(linear_predictions):
     sigmoid = Dense(1, activation='sigmoid', 
                     kernel_initializer='ones', 
                     bias_initializer='zeros')
     X = np.array([[x[0][0] for x in linear_predictions]])
     return sigmoid(X)
 
-def process_image(img_path):
-    img = load_img(img_path, target_size=(150, 150))
+def process_image(img_path,target_size=(224, 224)):
+    img = load_img(img_path, target_size=target_size)
     img = img_to_array(img) / 255
     img = np.expand_dims(img,0)
 
@@ -44,13 +44,13 @@ def inference(model_paths:list=None,
             predictions.append(pred)
         except Exception as e:
             print('ERROR |',e)
-    confidence = _sigmoid_prediction(predictions)
+    confidence = sigmoid_prediction(predictions)
     prediction = 'Eligible' if confidence >= 0.5 else 'Not Eligible'
     return prediction, confidence[0][0].numpy()
     
 # contoh penggunaan
 if __name__=='__main__':
-    prediction , confidence = inference(['./csv_model.h5','../test.h5'],
-                                        [np.array([[1,100,0,1,1]]), # kolom : [prestasi, nilai ujian, gaji ortu, punya kip SMA, status rumah]
-                                         _process_image('../Capstone Assets/faq.jpg')])
+    prediction , confidence = inference(['./csv_model.h5','./image_model.h5'],
+                                        [np.array([[0,90,5,0,2]]), # kolom : [prestasi, nilai ujian, gaji ortu, punya kip SMA, status rumah]
+                                         process_image('../test.png')])
     print(prediction,f', {round(confidence*100,2)}% confidence')
