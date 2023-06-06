@@ -13,7 +13,7 @@ def _sigmoid_prediction(linear_predictions):
     X = np.array([[x[0][0] for x in linear_predictions]])
     return sigmoid(X)
 
-def _process_image(img_path):
+def process_image(img_path):
     img = load_img(img_path, target_size=(150, 150))
     img = img_to_array(img) / 255
     img = np.expand_dims(img,0)
@@ -51,6 +51,6 @@ def inference(model_paths:list=None,
 # contoh penggunaan
 if __name__=='__main__':
     prediction , confidence = inference(['./csv_model.h5','../test.h5'],
-                                        [np.array([[1,100,0,1,1]]),
+                                        [np.array([[1,100,0,1,1]]), # kolom : [prestasi, nilai ujian, gaji ortu, punya kip SMA, status rumah]
                                          _process_image('../Capstone Assets/faq.jpg')])
     print(prediction,f', {round(confidence*100,2)}% confidence')
