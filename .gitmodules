@@ -1,3 +1,6 @@
 [submodule "API-Cloud-Computing"]
 	path = API-Cloud-Computing
 	url = https://github.com/NabilAzizii/API-Cloud-Computing
+[submodule "Mobile-App"]
+	path = Mobile-App
+	url = https://github.com/m-fahrizal/Capstone-Project
