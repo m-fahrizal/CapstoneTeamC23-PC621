@@ -33,7 +33,7 @@
 
 ###
 
-<p align="center">This is the final project of Bangkit 2023, regarding the prediction of high school students who want to register themselves for the KIP (Kartu Pintar Indonesia) Scholarship provided by the government. built in the form of an android application with features: detecting students with what economic level are eligible for the KIP (Kartu Pintar Indonesia)  Scholarship.</p>
+<p align="justify">The MyKIP project is our initiative where there are still many students who do not get the KIP (Kartu Indonesia Pintar) scholarship as they should, where this project will help the selection process so that prospective KIP (Kartu Indonesia Pintar) scholarship recipients can be declared eligible or not to receive the scholarship, with the prediction of high school students who want to register themselves to get the KIP (Kartu Indonesia Pintar) Scholarship provided by the government. The system built in the form of an android application with features: detecting students with what kind of economic level deserves the KIP Scholarship (Kartu Indonesia Pintar) using the machine learning process of classification student home photos and student data.</p>
 
 ###
 
@@ -58,12 +58,16 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.png" height="40" alt="flask logo"  />
-  
-  
-  
 </div>
 
-###
+<div align="center">
+  <h3>Screenshot</h3>
+
+  <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/home.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
+  <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/apply.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
+  <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/profile.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
+</div>
+
 
 <h2 align="center">Machine Learning</h3>
 
@@ -94,13 +98,10 @@
 
 ## Tech Stack
 
-- [Node.js](https://nodejs.org/)
-- [Flask](https://flask.palletsprojects.com/en/2.3.x/)
-- [My SQL](https://www.mysql.com/)
-- [Cloud SQL](https://cloud.google.com/sql)
-- [Cloud Storage](https://cloud.google.com/storage)
-- [App Engine](https://cloud.google.com/appengine)
-- [Cloud Functions](https://cloud.google.com/functions)</p>
+| [Node.js](https://nodejs.org/) | [Flask](https://flask.palletsprojects.com/en/2.3.x/)|[My SQL](https://www.mysql.com/) |
+|:---:|:---:|:---:|
+|**[Cloud SQL](https://cloud.google.com/sql)** |**[Cloud Storage](https://cloud.google.com/storage)** |**[App Engine](https://cloud.google.com/appengine)** |
+|**[Cloud Functions](https://cloud.google.com/functions)** 
 
 ###
 
