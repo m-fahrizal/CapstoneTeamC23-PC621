@@ -57,7 +57,14 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
   <img width="12" />
+  <img src="https://testrigor.com/wp-content/uploads/2023/01/express-logo.png" height="40" alt="flask logo"  />
+  <img width="12" />
+  <img src="https://img.freepik.com/free-icon/snakes_318-368381.jpg" height="40" alt="flask logo"  />
+  <img width="12" />
   <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.png" height="40" alt="flask logo"  />
+
+  
+  
 </div>
 
 <div align="center">
