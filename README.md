@@ -72,7 +72,7 @@
 
   <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/home.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
   <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/apply.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
-  <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/profile.jpg?raw=true" width="250" height="550">&nbsp; &nbsp;
+  <img src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/profile.png?raw=true" width="250" height="550">&nbsp; &nbsp;
 </div>
 
 
