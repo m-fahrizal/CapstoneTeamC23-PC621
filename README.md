@@ -1,4 +1,7 @@
-<h1 align="center">MyKIP</h1>
+<div align="center">
+  <h1> MyKIP</h1>
+<img height=250 src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/icon.png">
+ </div>
 
 ###
 
@@ -88,7 +91,7 @@
   Synthesis student data : <br/>
   We synthetize student data for training dataset for our model using [mostly ai.](https://synthetic.mostly.ai/)
 
-  House Images : 
+  House Images : [house-images | kaggel](https://www.kaggle.com/datasets/gedewahyupurnama/house-images)
   * Google Images (web scraping using [Google-Image-Scraper](https://github.com/ohyicong/Google-Image-Scraper))
   * Screenshots from Google Street View
   * Own Picture
