@@ -1,4 +1,7 @@
-<h1 align="center">MyKIP</h1>
+<div align="center">
+  <h1> MyKIP</h1>
+<img height=250 src="https://github.com/yunama47/CapstoneTeamC23-PC621/blob/main/Capstone%20Assets/icon.png">
+ </div>
 
 ###
 
