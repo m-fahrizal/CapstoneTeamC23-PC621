@@ -91,7 +91,7 @@
   Synthesis student data : <br/>
   We synthetize student data for training dataset for our model using [mostly ai.](https://synthetic.mostly.ai/)
 
-  House Images : 
+  House Images : [house-images | kaggel](https://www.kaggle.com/datasets/gedewahyupurnama/house-images)
   * Google Images (web scraping using [Google-Image-Scraper](https://github.com/ohyicong/Google-Image-Scraper))
   * Screenshots from Google Street View
   * Own Picture
